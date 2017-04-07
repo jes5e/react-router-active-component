@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "npm run lint && nwb build",
-    "postinstall": "build",
+    "postinstall": "nwb build",
     "lint": "eslint src tests demo/src",
     "start": "nwb serve",
     "test": "npm run build && nwb test",
